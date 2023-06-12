@@ -1,1 +1,35 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+html,
+html {
+  height: 100%;
+}
+
+body {
+  background: green;
+  height: 100%;
+}
+.card {
+  display: flex;
+  background-color: white;
+  margin: auto;
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.rojo {
+  color: red;
+}
+
+.cardSuits {
+  font-size: 60px;
+}
+
+.input {
+  width: 150px;
+}
+
+#simbolo2 {
+  transform: rotate(180deg);
+}
